@@ -15,6 +15,10 @@ a {
   color: #fff;
   text-decoration: none;
   transition: color 0.3s ease;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
 }
 
 img { 
@@ -87,6 +91,7 @@ h1, h2, h3, h4, h5, h6 {
   background-repeat: no-repeat;
   margin-top: -100px;
   padding: 240px 0;
+  min-height: 100%;
 }
 
 .welcome__content {
@@ -113,3 +118,77 @@ h1, h2, h3, h4, h5, h6 {
 .welcome .button {
   margin-top: 60px;
 }
+
+.dishes {
+  margin: 115px 0 102px;
+}
+
+.dishes__cards {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 40px;
+}
+
+.card {
+  grid-column: span 3;
+  background-color: #312F30;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card__content {
+  text-align: center;
+  padding: 28px 19px 30px;
+}
+
+.card__title {
+  font-size: 20px;
+}
+
+.card__text {
+ margin-top: 13px;
+ opacity: 0.7;
+}
+
+.order {
+  background-color: #312F30;
+  padding: 60px 0;
+}
+
+.order .container {
+  display: flex;
+  align-items: center;
+}
+
+.order__content {
+  max-width: 370px;
+  margin-left: 210px;
+  padding-top: 10px;
+}
+
+.order__title {
+  font-size: 44px;
+}
+
+.order__text {
+  opacity: 0.7;
+  margin-top: 27px;
+}
+
+.order__price {
+  margin-top: 13px;
+  margin-bottom: 11px;
+  color: #F6762C;
+  font-size: 20px;
+}
+
+.order__price--old {
+  font-size: 16px;
+  opacity: 0.7;
+  text-decoration: line-through;
+}
+
+.button {
+
+}
+
