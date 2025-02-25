@@ -72,16 +72,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .button {
-  border-radius: 5px;
-  padding: 15px 37px;
-  text-transform: uppercase;
-  background-color: #F6762C;
-  transition: background-color 0.3s ease;
   display: inline-block;
+  border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  padding: 15px 37px;
+  text-transform: uppercase;
+  background-color: #F6762C;
+  transition: background-color 0.3s ease;
 }
 
 .button:hover {
@@ -89,19 +89,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .welcome {
+  min-height: 100vh;
+  margin-top: -200px;
+  padding: 240px 0;
   background-image: url(../images/welcome-bg.jpg);
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  margin-top: -100px;
-  padding: 240px 0;
-  min-height: 100%;
-  min-height: 100vh;
 }
 
 .welcome__content {
   max-width: 555px;
-  padding-top: 47px;
+  padding-top: 150px;
 }
 
 .welcome__subtitle {
@@ -115,9 +114,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .welcome__text {
+  margin-top: 30px;
   opacity: 0.7;
   font-size: 18px;
-  margin-top: 30px;
 }
 
 .welcome .button {
@@ -136,14 +135,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .card {
   grid-column: span 3;
-  background-color: #312F30;
   border-radius: 10px;
   overflow: hidden;
+  background-color: #312F30;
 }
 
 .card__content {
-  text-align: center;
   padding: 28px 19px 30px;
+  text-align: center;
 }
 
 .card__title {
@@ -156,8 +155,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .order {
-  background-color: #312F30;
   padding: 60px 0;
+  background-color: #312F30;
 }
 
 .order .container {
@@ -176,8 +175,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .order__text {
-  opacity: 0.7;
   margin-top: 27px;
+  opacity: 0.7;
 }
 
 .order__price {
@@ -188,8 +187,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .order__price--old {
-  font-size: 16px;
   opacity: 0.7;
+  font-size: 16px;
   text-decoration: line-through;
 }
 
@@ -211,35 +210,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product__card-queen {
+  padding: 63px 0px 63px 290px;
   background-image: url(../images/product-1.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
-  padding: 63px 0px 63px 290px;
+  background-size: cover;
 } 
 
 .product__card-pizza {
+  padding: 63px 253px 63px 50px;
   background-image: url(../images/product-2.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
-  padding: 63px 253px 63px 50px;
+  background-size: cover;
 }
 
 .product__card-burger {
+  padding: 63px 0px 63px 290px;
   background-image: url(../images/product-3.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
-  padding: 63px 0px 63px 290px;
+  background-size: cover;
 }
 
 .product__card-papa {
+  padding: 63px 253px 63px 50px;
   background-image: url(../images/product-4.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
-  padding: 63px 253px 63px 50px;
+  background-size: cover;
 }
 
 .product__card-title {
@@ -247,8 +246,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product__card-text {
-  opacity: 0.7;
   margin-top: 20px;
+  opacity: 0.7;
 }
 
 .product__price {
@@ -261,16 +260,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .product__price--old {
-  color: #F6762C;
   opacity: 0.7;
+  color: #F6762C;
   text-decoration: line-through;
 }
 
 .products .button {
   width: 141px;
   height: 39px;
-  font-size: 12px;
   padding: 12px 36px;
+  font-size: 12px;
 }
 
 .team {
@@ -283,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .team__image {
   width: 365px;
-  margin-left: 202px;
+  margin-left: 170px;
 }
 
 .team__content {
@@ -291,10 +290,10 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
   width: 368px;
   margin-left: 118px;
-  padding-top: 30px;
+  padding-top: 65px;
+  text-align: center;
 }
 
 .team__quote {
@@ -302,18 +301,104 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .team__text {
-  opacity: 0.7;
   margin-top: 37px;
+  opacity: 0.7;
 }
 
 .team__author-name {
-  font-size: 24px;
   margin-top: 27px;
+  font-size: 24px;
 }
 
 .team__info {
+  margin-top: 2px;
+  opacity: 0.7;
   font-size: 12px;
   text-transform: uppercase;
+}
+
+.download {
+  padding: 60px 0;
+  background-color: #312F30;
+}
+
+.download .container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 950px;
+}
+
+.download__title {
+  font-size: 40px;
+}
+
+.footer {
+  padding: 125px 0 140px;
+}
+
+.footer__content {
+  display: flex;
+}
+
+.footer__logo {
+  width: 71px;
+  height: 59px;
+}
+
+.footer__contact-email {
+  display: flex;
+  gap: 7px;
+  margin-top: 21px;
+}
+
+.footer__email-link {
   opacity: 0.7;
-  margin-top: 2px;
+  font-size: 12px;
+}
+
+.footer__email-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.footer__contact-website {
+  display: flex;
+  gap: 7px;
+  margin-top: 9px;
+}
+
+.footer__website-link {
+  opacity: 0.7;
+  font-size: 12px;
+}
+
+.footer__website-link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.footer__columns {
+  display: flex;
+  gap: 161px;
+  margin-left: 92px;
+}
+.footer__column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer__column-link {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.footer__column-link:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.footer__column-social-links {
+  display: flex;
+  gap: 10px;
 }
